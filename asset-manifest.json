@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d5e69f5.css",
+    "main.js": "/static/js/main.5f4db03e.js",
+    "static/css/141.27c49f1b.chunk.css": "/static/css/141.27c49f1b.chunk.css",
+    "static/js/141.64e3f89c.chunk.js": "/static/js/141.64e3f89c.chunk.js",
+    "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
+    "static/js/769.7be7f469.chunk.js": "/static/js/769.7be7f469.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/peter3Logo.png": "/static/media/peter3Logo.07f2b77ce3592ec3a176.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/globalGestionLogo.png": "/static/media/globalGestionLogo.b62a5dd9b50928a56b26.png",
+    "static/media/utnLogo.jpg": "/static/media/utnLogo.3c1e8eed4b042a0eab1e.jpg",
+    "static/media/ePartnersLogo.jpg": "/static/media/ePartnersLogo.13dfea17217ffbe6eb35.jpg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.2d5e69f5.css.map": "/static/css/main.2d5e69f5.css.map",
+    "main.5f4db03e.js.map": "/static/js/main.5f4db03e.js.map",
+    "141.27c49f1b.chunk.css.map": "/static/css/141.27c49f1b.chunk.css.map",
+    "141.64e3f89c.chunk.js.map": "/static/js/141.64e3f89c.chunk.js.map",
+    "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
+    "769.7be7f469.chunk.js.map": "/static/js/769.7be7f469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d5e69f5.css",
+    "static/js/main.5f4db03e.js"
+  ]
+}
