@@ -32,7 +32,7 @@ export default function Greeting() {
               <h3>
                 <Typewriter
                   options={{
-                    strings: ['Hello World!', 'Hola Mundo!', 'Привет мир!','Bonjour le monde!'],
+                    strings: ['Hello World!', 'Hola Mundo!', 'Привет мир!', 'Bonjour le monde!'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -52,9 +52,17 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="See my resume"
+                    text="Resume 🇺🇸"
                     newTab={true}
                     href={greeting.resumeLink}
+                  />
+
+                )}
+                {greeting.resumeLinkAlternative && (
+                  <Button
+                    text="Resume 🇪🇸"
+                    newTab={true}
+                    href={greeting.resumeLinkAlternative}
                   />
                 )}
               </div>
