@@ -14,7 +14,7 @@ const greeting = {
   username: "Pertile Giuliano",
   title: "Hello there, I'm Giuliano",
   subTitle: emoji(
-    " Argentinean 🇦🇷 |Information Systems Engineer | Full Stack Web Developer | Aspiring Data Scientist 🤖| Lenguage Learner"
+    " Argentinean 🇦🇷 |Information Systems Engineer | Full Stack Web Developer | Aspiring Data Scientist 🤖| Language Learner"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1Kud5EzUDc4RmxH94_iveKY0x2gI2c_Tq/view?usp=sharing", // Set to empty to hide the button
