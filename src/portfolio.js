@@ -187,10 +187,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "SOVOS",
+      companylogo: require("./assets/images/sovosLogo.png"),
+      date: "March 2021 - Present",
+      desc: `Deploying Puppet code
+      | Automate deployment
+      | Backend and frontend development`,
+      descBullets: [
+        "Java",
+        "C#",
+        "React",
+        "Puppet",
+        "Oracle DB",
+        "Spring",
+        "ASP.NET Core",
+        "Jenkins"
+      ]
+    },
+    {
       role: "Javascript Developer",
       company: "E-Partners",
       companylogo: require("./assets/images/ePartnersLogo.jpg"),
-      date: "October – Present",
+      date: "October 2021– March 2021",
       desc: `Javascript developer for ScheduleInterpreter®.
       | Redesign of user interfaces
       | Increased the platform response speed.`,
