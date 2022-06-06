@@ -17,7 +17,7 @@ const greeting = {
     " Argentinean 🇦🇷 |Information Systems Engineer | Full Stack Web Developer | Aspiring Data Scientist 🤖| Language Learner"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Kud5EzUDc4RmxH94_iveKY0x2gI2c_Tq/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1yNRAZuOllxWlCWjdOnv5fVbp4KgdFu5j/view?usp=sharing", // Set to empty to hide the button
   resumeLinkAlternative:
     "https://drive.google.com/file/d/1ubYE_zhH52CELOIc5iYq2BEwN6m_k_8J/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
