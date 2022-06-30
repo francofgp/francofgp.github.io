@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -11,11 +11,12 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  languages as languagesSection
+  languages as languagesSection,
+  customBlogSection
 } from "../../portfolio";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -23,6 +24,7 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const languages = languagesSection.display
+  const viewCustomBlog = customBlogSection.display;
 
   return (
     <Headroom>
@@ -36,7 +38,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -69,6 +71,11 @@ function Header() {
           {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
+            </li>
+          )}
+          {viewCustomBlog && (
+            <li>
+              <a href="#blogs">Blog</a>
             </li>
           )}
           {viewTalks && (

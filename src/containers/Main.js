@@ -8,6 +8,7 @@ import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
+import CustomBlog from "./customBlog/CustomBlog";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
@@ -15,10 +16,10 @@ import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
-import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
+import { StyleProvider } from "../contexts/StyleContext";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 import dataScience from "../assets/lottie/dataScience";
-import { skillsSection,skillsSectionSecond } from "../portfolio";
+import { skillsSection, skillsSectionSecond } from "../portfolio";
 
 import "./Main.scss";
 
@@ -32,11 +33,11 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
         <Header />
         <Greeting />
-        <Skills skillsSection={skillsSection}/>
-        <Skills imagePosition="left" lottie={dataScience} skillsSection={skillsSectionSecond}/>
+        <Skills skillsSection={skillsSection} />
+        <Skills imagePosition="left" lottie={dataScience} skillsSection={skillsSectionSecond} />
         <StackProgress />
         <Education />
         <WorkExperience />
@@ -44,6 +45,7 @@ const Main = () => {
         <StartupProject />
         <Achievement />
         <Blogs />
+        <CustomBlog />
         <Talks />
         <Twitter />
         <Podcast />

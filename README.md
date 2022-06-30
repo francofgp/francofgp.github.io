@@ -39,6 +39,9 @@ node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
+
+This repo was tested with node v14.
+
 **Attention: It is not working with NodeJS v16.13.1**
 ### [Docker Commands](#docker-commands)
 

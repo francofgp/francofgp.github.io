@@ -209,7 +209,7 @@ const workExperiences = {
       role: "Javascript Developer",
       company: "E-Partners",
       companylogo: require("./assets/images/ePartnersLogo.jpg"),
-      date: "October 2021– March 2021",
+      date: "October 2021– March 2022",
       desc: `Javascript developer for ScheduleInterpreter®.
       | Redesign of user interfaces
       | Increased the platform response speed.`,
@@ -335,6 +335,7 @@ const languages = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Achievement Section
 // Include certificates, talks etc
 
@@ -386,7 +387,7 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
+// Blogs Section for Medium
 
 const blogSection = {
   title: "Blogs",
@@ -410,6 +411,37 @@ const blogSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Custom Blog Section
+
+const customBlogSection = {
+  title: "My Blog",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt or simply share my experience.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  url: "https://www.giulianopertile.com",
+  friendlyUrl: "giulianopertile.com",
+  blogs: [
+    {
+      url: "https://www.giulianopertile.com/blog/dragon-curve-in-python/",
+      title: "Dragon Curve in Python",
+      description:
+        "You will learn what the Dragon Curve is, how to generate one, and how to create one in Python."
+    },
+    {
+      url: "https://www.giulianopertile.com/blog/my-first-time-learning-go/",
+      title: "My First Time Learning Go as a Python Developer",
+      description:
+        "Have you ever wanted to learn Go, but you are still not sure if that is your thing? Well, today I am going to share my experience learning this programming language."
+    },
+    {
+      url: "https://www.giulianopertile.com/blog/book-review-architecture-patterns-with-python/",
+      title: "Architecture Patterns with Python",
+      description:
+        "Have you wanted to dive deep into architecture design patterns with Python, and you don’t know where to start? Well, maybe this book may be for you."
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 // Talks Sections
 
 const talkSection = {
@@ -470,6 +502,7 @@ export {
   languages,
   achievementSection,
   blogSection,
+  customBlogSection,
   talkSection,
   podcastSection,
   contactInfo,
